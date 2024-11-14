@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+.modal {
+  display: flex;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.modal {
+  display: flex;
+  gap: 16px;
+
+  padding: 16px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
 html, body {
   height: 100%;
 }
