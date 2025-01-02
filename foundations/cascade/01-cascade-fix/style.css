@@ -5,7 +5,7 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: bolder;
 }
 
 .small-para {
@@ -17,17 +17,17 @@ body {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 .child {
   color: rgb(0, 0, 0);
